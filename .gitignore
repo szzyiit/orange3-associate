@@ -5,7 +5,7 @@ _build/*
 build
 *.DS_Store
 *.so
-Orange3_Associate.egg-info
+Orange3_Associate_zh.egg-info
 
 # Editor files
 .idea

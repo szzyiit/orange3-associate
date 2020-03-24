@@ -21,7 +21,7 @@ ENTRY_POINTS = {
         # Syntax: category name = path.to.package.containing.widgets
         # Widget category specification can be seen in
         #    orangecontrib/datafusion/widgets/__init__.py
-        'Associate = orangecontrib.associate.widgets',
+        '关联(Associate) = orangecontrib.associate.widgets',
     ),
 
     # Register widget help
@@ -31,7 +31,7 @@ ENTRY_POINTS = {
 
 def do_setup(ext_modules):
     setup(
-        name="Orange3-Associate",
+        name="Orange3-Associate-zh",
         description="Orange add-on for mining frequent itemsets and association rules.",
         long_description=open(path.join(path.dirname(__file__), 'README.rst')).read(),
         version=VERSION,
